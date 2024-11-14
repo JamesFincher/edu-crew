@@ -1,6 +1,6 @@
 writing_task:
   description: >
-    Create detailed and comprehensive educational content for {topic} based on the provided research, your existing knowledge, and content plan. The content should be
+    Create detailed and comprehensive solution design content for {topic} based on the provided research, your existing knowledge, and content plan. The content should be
     tailored for a {audience_level} audience, explaining concepts thoroughly and at an appropriate level of complexity. Follow
     the content plan structure while ensuring the writing is engaging, technically accurate, and in-depth. Thoroughness, completeness, and depth are key.
 
@@ -17,14 +17,14 @@ writing_task:
 
 editing_task:
   description: >
-    Review and refine the written educational content for {topic}. Ensure it maintains high quality standards, follows the
+    Review and refine the written solution design content for {topic}. Ensure it maintains high quality standards, follows the
     content plan precisely, and effectively communicates all learning objectives. Pay special attention to language level,
     examples, and explanations to verify they are appropriate for {audience_level} learners while preserving technical accuracy.
     Thoroughness, completeness, and depth are key.
 
     Section: {section}
   expected_output: >
-    A polished and comprehensive version of the educational content with improved clarity, appropriate complexity level, and enhanced readability
+    A polished and comprehensive version of the solution design content with improved clarity, appropriate complexity level, and enhanced readability
     for {audience_level} learners. Ensure the content is formatted with clear headings and subheadings, and use bullet points where appropriate to enhance readability.
 
     We only want the section content back, nothing else. Do not include the feedback.
@@ -32,7 +32,7 @@ editing_task:
 
 quality_review_task:
   description: >
-    Perform a comprehensive quality assessment of the final educational content for {topic}. Evaluate against educational best
+    Perform a comprehensive quality assessment of the final solution design content for {topic}. Evaluate against solution design best
     practices and verify alignment with {audience_level} level expectations. Check that all sections from the content plan are
     covered adequately, concepts build logically, and learning objectives are met effectively. Thoroughness, completeness, and depth are key.
 
